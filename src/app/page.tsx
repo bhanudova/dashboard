@@ -1,43 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
-      <ul>
-        <li className="text-3xl font-bold">List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li>List one</li>
-        <li className="text-3xl font-bold">List End</li>
-        
+    <div className="p-10">
+      <ul className="space-y-2">
+        <li><Link href={'/'}>Home</Link></li>
+        <li className="text-blue-500 hover:underline font-semibold"><Link href={'/dashboard'}>Dashboard</Link></li>
       </ul>
     </div>
   );
