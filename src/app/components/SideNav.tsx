@@ -9,6 +9,7 @@ const SideNav = () => {
         <li><Link href='/dashboard/customers'>Customer</Link></li>
         <li><Link href='/dashboard/invoices'>Invoice</Link></li>
       </ul>
+     
     </div>
   )
 }

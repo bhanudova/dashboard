@@ -2,7 +2,7 @@ import React from 'react'
 
 const DemoBox = () => {
     return (
-        <div className='space-y-4'>
+        <div className='space-y-4 p-4'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className='p-2 h-48 bg-yellow-50 border-2 border-black/50 rounded-md'>col-1</div>
                 <div className='p-2 h-48 bg-amber-100 border-2 border-black/50 rounded-md'>col-2</div>
