@@ -8,6 +8,11 @@ export default function Home() {
         <li><Link href={'/'}>Home</Link></li>
         <li className="text-blue-500 hover:underline font-semibold"><Link href={'/dashboard'}>Dashboard</Link></li>
       </ul>
+      <div className="flex justify-center items-center">
+        <div className="bg-black min-h-52  w-52">
+
+        </div>
+      </div>
     </div>
   );
 }
