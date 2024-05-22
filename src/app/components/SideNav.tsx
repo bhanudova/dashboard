@@ -10,7 +10,7 @@ const SideNav = () => {
     const [isServicesOpen, setIsServicesOpen] = useState(false);
     const [isContactOpen, setIsContactOpen] = useState(false);
 
-    const toggleMenu = (menu:any) => {
+    const toggleMenu = (menu: any) => {
         switch (menu) {
             case 'home':
                 setIsHomeOpen(!isHomeOpen);
@@ -33,7 +33,7 @@ const SideNav = () => {
         <div className='h-full flex flex-col'>
             <div className='flex-grow bg-white overflow-hidden pr-[1px] py-[1px]'>
                 <div className='overflow-y-auto h-full p-2 scrollbar' id="style-1">
-                <nav>
+                    <nav>
                         <button
                             className="w-full mb-2 shadow flex items-center justify-between text-left px-4 py-2 hover:bg-gray-200 rounded-md transition duration-300"
                             onClick={() => toggleMenu('home')}
