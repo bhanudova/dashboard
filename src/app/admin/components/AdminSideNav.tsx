@@ -9,7 +9,7 @@ import { FiPhone } from "react-icons/fi";
 
 const AdminSideNav = ({ toggleSidebar }: any) => (
 
-    <nav className='h-full flex flex-col'>
+    <nav className='h-full w-full flex flex-col'>
         <div className='flex-grow bg-white overflow-hidden pr-[1px] py-[1px]'>
             <div className='overflow-y-auto h-full p-2 scrollbar' id="style-1">
                 <div className=''>

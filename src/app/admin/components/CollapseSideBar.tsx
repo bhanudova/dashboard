@@ -5,7 +5,7 @@ import { IoCartOutline } from "react-icons/io5";
 import { FiPhone } from "react-icons/fi";
 const CollapseSideBar = ({ toggleSidebar }:any) => {
     return (
-        <div className='h-full flex flex-col'>
+        <div className='h-full w-full flex flex-col'>
             <div className='flex-grow bg-white overflow-hidden pr-[1px] py-[1px]'>
                 <div className='overflow-y-auto h-full p-2 scrollbar' id="style-1">
                     <ul className='space-y-4 flex flex-col items-center pt-4'>

@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <AdminHeader />
             <div className="flex flex-grow lg:overflow-hidden pt-14 lg:flex-row">
                 <div
-                    className={`relative border-r border-r-gray-300 transition-width duration-300 ease-in-out ${isCollapsed ? 'lg:w-20' : 'lg:w-64'}`}
+                    className={`relative border-r border-r-gray-300 transition-width duration-300 ease-in-out ${isCollapsed ? 'hidden lg:flex lg:w-20' : 'hidden lg:flex lg:w-64'}`}
                 >
                     {isCollapsed ? (
                         <CollapseSideBar toggleSidebar={toggleSidebar} />
