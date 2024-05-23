@@ -1,21 +1,12 @@
 "use client"
 import React from 'react'
 import { NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger, NavigationMenuViewport } from "@/components/ui/navigation-menu"
-import {
-    Card,
-    CardContent,
-    CardDescription,
-    CardFooter,
-    CardHeader,
-    CardTitle,
-  } from "@/components/ui/card"
-  
 // import { adminHeaderNavMenu } from '@/lib/global'
 import { CiGift } from "react-icons/ci";
 import { IoIosSettings } from "react-icons/io";
 import { MdDisplaySettings } from "react-icons/md";
 
-const iconMap:any = {
+const iconMap: any = {
     CiGift: CiGift,
     IoIosSettings: IoIosSettings,
     MdDisplaySettings: MdDisplaySettings,
@@ -58,8 +49,11 @@ export default function AdminHeaderNavMenu() {
                                             {data.title}
                                         </div>
                                     </NavigationMenuTrigger>
-                                    <NavigationMenuContent className='px-4 py-2 '>
-                                        <NavigationMenuLink>{data.link}</NavigationMenuLink>
+                                    <NavigationMenuContent >
+                                        <div className='p-2 w-60 flex flex-col items-center'>
+                                            <NavigationMenuLink>{data.link}</NavigationMenuLink>
+                                            <h2>Hello</h2>
+                                        </div>
                                     </NavigationMenuContent>
                                 </NavigationMenuItem>
                             </NavigationMenuList>

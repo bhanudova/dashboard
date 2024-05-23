@@ -17,7 +17,7 @@ const AdminHeader = () => {
 
   return (
     <header className="w-full fixed top-0 left-0 bg-white border border-gray-300 z-10">
-      <div className="flex p-[7px] justify-between gap-4">
+      <div className="flex p-[7px] justify-between gap-4 px-6">
         <div className='flex items-center gap-2'>
           <Image src={'/phoenix_logo.png'} width={600} height={600} alt='Logo' className='w-7' />
           <h2 className='font-medium text-2xl text-gray-600'>phoenix</h2>
